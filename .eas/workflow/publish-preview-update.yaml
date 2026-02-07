@@ -1,0 +1,11 @@
+name: Publish Preview Update
+
+on:
+  pull_request:
+    branches: ["dev"]
+
+jobs:
+  publish_preview_update:
+    name: Publish Preview Update
+    type: update
+    params:
