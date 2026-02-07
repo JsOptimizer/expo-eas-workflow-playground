@@ -7,6 +7,7 @@ export default function Index() {
       <ScrollView contentContainerStyle={{ height: "100%" }}>
         <View>
           <Text>Hello World</Text>
+          <Text>Chat GPT</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
