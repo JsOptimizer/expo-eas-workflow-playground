@@ -1,7 +1,7 @@
 name: Publish Preview Update
 
 on:
-  pull_request:
+  push:
     branches: ["dev"]
 
 jobs:
@@ -9,4 +9,4 @@ jobs:
     name: Publish Preview Update
     type: update
     params:
-      branch: ${{ github.ref || 'dev' }}
+      branch: ${{ github.ref_name }}
