@@ -85,4 +85,10 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
   },
   owner: "jsoptimizer",
+  updates: {
+    url: "https://u.expo.dev/7e7dbcea-89e7-47f0-b7fd-14f9df2b2f1e",
+  },
+  runtimeVersion: {
+    policy: "appVersion",
+  },
 });
