@@ -9,3 +9,4 @@ jobs:
     name: Publish Preview Update
     type: update
     params:
+      branch: ${{ github.ref || 'dev' }}
